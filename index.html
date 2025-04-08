@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/b6093654ea.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div>
         <h1>Log in</h1>
-        <p>Don´t have an account? <a href="LINK">sign Up</a></p>
-        <form>
-            <button><img src="" alt=""></button>
-            <button><img src="" alt=""></button>
-            <p><span>or</span></p>
+        <p>Don't have an account? <a href="LINK">sign Up</a></p>
+        <form method="post">
+            <button><i class="fa-brands fa-google" alt="Google Sign in"></i> Sing in with Google</button>
+            <button><i class="fa-brands fa-facebook" alt="Facebook Sign in"></i></button>
+            <p><hr class="line"><span>or</span><hr class="line"></p>
             <div>
-                <input type="text">
-                <input type="text">
+                <h4>Email</h4>
+                <input type="text" name="email" placeholder="Enter Email">
+                <h4>Password</h4>
+                <input type="text" name="password" placeholder="Enter Password">
             </div>
             <button>Log In</button>
-            <a href="#">Forgot password?</a>
+            <br>
+            <a href="LINK">Forgot password?</a>
         </form>
-
     </div>
 </body>
 </html>
